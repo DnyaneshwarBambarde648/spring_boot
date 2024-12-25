@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: JPA_OneToMany
+  datasource:
+    url: jdbc:mysql://localhost:3306/jpa_mappings
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update 
+    show-sql: true
+
